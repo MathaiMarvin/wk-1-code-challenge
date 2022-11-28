@@ -2,9 +2,9 @@
 Week One Code Challenge
 # Project Description
 The code challenge  was constituted of three challenges: 
-1. Student Grade Generator 
-2. Speed Detector (Toy Problem)
-3. Net Salary Calculator (Toy Problem)
+1. Student Grade Generator-Run via prompt enabled by opening the html page with live server 
+2. Speed Detector (Toy Problem)-run via the terminal by passing arguments
+3. Net Salary Calculator (Toy Problem)-run via terminal by passing arguments 
 ## Project Setup
 ### Requirements
 Text Editor e.g Visual Studio Code

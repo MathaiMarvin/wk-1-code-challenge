@@ -63,9 +63,6 @@ if (gross <= 24000) {
     else if (gross >= 24001) {
         tax = (gross*0.25)
     }
-console.log('Gross salary:', gross)
- console.log('PAYE deductions:', tax)
- console.log('nssf deduction:', nssf)
 //NHIF deduction
         if (gross <= 5999 ){
             NHIF = (150)}
@@ -101,10 +98,12 @@ console.log('Gross salary:', gross)
             NHIF = (1600) }
         else if (gross >= 100000) {
             NHIF = (1700)}
+    console.log('Gross salary:', gross)
+    console.log('PAYE deductions:', tax)
+    console.log('nssf deduction:', nssf)
     console.log('NHIF deduction:', NHIF)
     console.log('Taxes: PAYE + nssf + NHIF :', (nssf + tax + NHIF ))
     let netSalary = 'Net Salary:  ' + (gross - (nssf + tax + NHIF ))
     return netSalary;
 }
-
-        console.log(calculatedSalary(80000,6000));
+console.log(calculatedSalary(65000,6000));
