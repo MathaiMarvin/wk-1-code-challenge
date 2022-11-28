@@ -11,7 +11,7 @@ Text Editor e.g Visual Studio Code
 [language] : [Javascript]
 # Author
 Marvin Mathai 
-# LIcense
+# License
 MIT License
 Copyright (c) [2022] COPYRIGHT HOLDER
 Permission is hereby granted, free of charge, to any person obtaining a copy
