@@ -1,4 +1,5 @@
 // Challenge 1: Student Grade Generator
+//The code below executes a prompt for the user to input their marks on the webpage and the marks are graded accordingly 
 function grade() {
     //A variable result that will store what needs to be outputted for the different categories of marks
     let result;
@@ -37,3 +38,14 @@ function speedOfCar(speed){
 }
         
 console.log(speedOfCar(131));
+
+// Challenge 3: Net Salary Calculator (Toy Problem)
+function salary (basicSalary){
+    if (basicSalary<=24000){
+        return result = basicSalary * 0.1
+    }else if (basicSalary>=24001 && basicSalary<=32333){
+        return result = basicSalary * 0.25
+    }else if(basicSalary > 32333){
+        return result = basicSalary * 0.3
+    }
+}
