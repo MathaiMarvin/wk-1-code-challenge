@@ -106,4 +106,4 @@ if (gross <= 24000) {
     let netSalary = 'Net Salary:  ' + (gross - (nssf + tax + NHIF ))
     return netSalary;
 }
-console.log(calculatedSalary(65000,6000));
+console.log(calculatedSalary(65000,6000));  
