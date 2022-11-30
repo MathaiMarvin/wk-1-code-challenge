@@ -30,7 +30,7 @@ function speedOfCar(speed){
         return result = "Ok"
     }else{
            
-           if (((speed-70)/5)>12){
+           if ((Math.round(speed-70)/5)>12){
             //for speed that generate more than 12 demerit points the output is license suspended
             return result= "License suspended";
            }else {
