@@ -3,7 +3,7 @@
 function grade() {
     //A variable result that will store what needs to be outputted for the different categories of marks
     let result;
-    //A varaible with the prompt asking the user for their grade
+    //A variable with the prompt asking the user for their grade
     let marks = prompt("Please Enter Your Marks"); 
 
     //An if statement to help group the mark passed by user to corresponding grade 

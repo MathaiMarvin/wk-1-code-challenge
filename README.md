@@ -3,8 +3,8 @@ Week One Code Challenge
 # Project Description
 The code challenge  was constituted of three challenges: 
 1. Student Grade Generator-Run via prompt enabled by opening the html page with live server 
-2. Speed Detector (Toy Problem)-run via the terminal by passing arguments
-3. Net Salary Calculator (Toy Problem)-run via terminal by passing arguments 
+2. Speed Detector (Toy Problem)-run via the terminal by passing arguments into the called function
+3. Net Salary Calculator (Toy Problem)-run via terminal by passing arguments into the called function
 ## Project Setup
 * Fork the repo
 - git clone.
@@ -18,10 +18,19 @@ The code challenge  was constituted of three challenges:
 
 
 - For the first challenge open live server through html and input value of grade via the prompt pop up.
-- To run the second challenge input the arguments in the called function
-- To run the third challenge input the arguments in the called function
+- To run the second challenge input the arguments in the called function and then proceed to the terminal and run the command:
+
+        node index.js
+
+- To run the third challenge input the arguments in the called function and then proceed to the terminal and run the command:
+
+        node index.js
+
+
 ### Requirements
-Text Editor e.g Visual Studio Code
+Text Editor 
+
+- Visual Studio Code
 
 # Author
 Marvin Mathai 
