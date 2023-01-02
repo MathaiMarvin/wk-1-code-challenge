@@ -8,13 +8,21 @@ The code challenge  was constituted of three challenges:
 ## Project Setup
 * Fork the repo
 - git clone.
+
+        git@github.com:MathaiMarvin/wk-1-code-challenge.git
+
+
 - After obtaining a local copy of the project open in visual studio code.
+
+        code .
+
+
 - For the first challenge open live server through html and input value of grade via the prompt pop up.
 - To run the second challenge input the arguments in the called function
 - To run the third challenge input the arguments in the called function
 ### Requirements
 Text Editor e.g Visual Studio Code
-[language] : [Javascript]
+
 # Author
 Marvin Mathai 
 # License
